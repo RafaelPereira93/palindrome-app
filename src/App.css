@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+h2 {
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.what-is-palindrome {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto 0;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.3);
+  font-family: "Roboto", sans-serif;
+}
+
+.what-is-palindrome p,
+.what-is-palindrome h2 {
+  color: #ddd;
+}
+
+.what-is-palindrome h2 {
+  padding-top: 0;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #ccffbd;
+  margin-bottom: 15px;
+}
+
+.what-is-palindrome p {
+  font-size: 0.9em;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  gap: 5px;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+}
+
+p.is-palindrome {
+  color: #16c79a;
+}
+
+p.is-not-palindrome {
+  color: #ce1212;
+}
+
+/* .teste div p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+} */
