@@ -13,3 +13,9 @@ button {
 button:hover {
   background: #f05945;
 }
+
+@media (max-width: 450px) {
+  button {
+    margin-top: 10px;
+  }
+}
