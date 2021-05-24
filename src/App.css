@@ -4,6 +4,7 @@ h2 {
   text-align: center;
   padding-top: 100px;
   color: #fff;
+  margin-bottom: 25px;
 }
 
 .what-is-palindrome {
@@ -31,6 +32,14 @@ h2 {
 
 .what-is-palindrome p {
   font-size: 0.9em;
+}
+
+@media (max-width: 650px) {
+  .what-is-palindrome {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
 }
 
 .wrapper {
